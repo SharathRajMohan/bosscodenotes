@@ -64,14 +64,49 @@ Used to return values based on conditions.
 
 - **CASE**: Conditional logic in queries.
     - *Usage*: 
+        1. Transform or Categorize Values
         ```sql
         SELECT name,
             CASE 
+                WHEN score >=90 THEN 'Distinction'
                 WHEN score >= 60 THEN 'Pass'
                 ELSE 'Fail'
             END AS result
         FROM students;
         ```
+        2. Handle NULL or Missing Data
+        ```sql
+        SELECT employee_name,
+             CASE 
+                WHEN bonus IS NULL THEN 0
+                ELSE bonus 
+            END AS bonus_final
+        FROM payroll;
+        ```
+        3. Conditional Aggregates [IMPORTANT] (Compute sums, counts, etc., based on conditions):
+        ```sql
+        SELECT department,
+            SUM(CASE WHEN status = 'active' THEN 1 ELSE 0 END) AS active_count
+        FROM employees
+        GROUP BY department;
+        ```
+        4. Custom Ordering
+        ```sql
+        SELECT *
+        FROM products
+        ORDER BY
+        CASE
+            WHEN category = 'Electronics' THEN 1
+            WHEN category = 'Clothing' THEN 2
+            ELSE 3
+        END;
+        ```
+    - Important Points:
+        - Put the most specific conditions first — SQL evaluates WHENs in order.
+        - Always include an ELSE to avoid unintended NULLs, unless NULL is actually what you want.
+        - Keep the results from all WHEN branches the same data type so the SQL engine doesn’t have to convert them internally.
+        - Use indentation and spacing for readability — interviewers love neat SQL.
+
 - **COALESCE()**: Returns first non-null value.
     - *Usage*: `SELECT COALESCE(phone, 'N/A') FROM contacts;`
 - **NULLIF()**: Returns NULL if two expressions are equal.
