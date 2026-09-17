@@ -113,7 +113,7 @@ nums[left]+nums[right] == -nums[i]
 - [x]  Write Week 1 reflection in the reflections section
 
 ---
-[Hashmap and Pointers](Patterns\Hashmaps&Pointers.md)
+[Hashmap and Pointers](Patterns/Hashmaps&Pointers.md)
 ---
 
 # 🗓️ Week 2 — Sliding Window & Running Min/Max
