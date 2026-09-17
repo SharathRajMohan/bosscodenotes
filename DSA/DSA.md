@@ -113,7 +113,9 @@ nums[left]+nums[right] == -nums[i]
 - [x]  Write Week 1 reflection in the reflections section
 
 ---
-[Hashmap and Pointers](Patterns/Hashmaps&Pointers.md)
+
+[Hashmap and Pointers](Patterns/Hashmaps&Pointers.md) 
+
 ---
 
 # 🗓️ Week 2 — Sliding Window & Running Min/Max
@@ -209,7 +211,7 @@ This "add the new, remove the old, compare" rhythm is the entire pattern — you
 
 ---
 
-[Sliding Window Notes](Patterns\SlidingWindow.md)
+[Sliding Window Notes](Patterns/SlidingWindow.md)
 
 ---
 
@@ -263,8 +265,8 @@ This "add the new, remove the old, compare" rhythm is the entire pattern — you
 - [ ]  Update tracker, write Week 3 reflection
 
 ---
-[Recursion, DP and Back Tracking notes](Patterns\RecursionDPnBackTracking.md) \
-[BFS and DFS notes](Patterns\BFSDFS.md)
+[Recursion, DP and Back Tracking notes](Patterns/RecursionDPnBackTracking.md) \
+[BFS and DFS notes](Patterns/BFSDFS.md)
 
 ---
 
