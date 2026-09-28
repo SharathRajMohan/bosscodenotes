@@ -251,13 +251,13 @@ This "add the new, remove the old, compare" rhythm is the entire pattern — you
 
 ### Friday — More graph traversal (1h)
 
-- [ ]  LeetCode #733 — Flood Fill
-- [ ]  **Reflection:** When BFS vs DFS? Write the difference in 2 sentences.
+- [x]  LeetCode #733 — Flood Fill
+- [x]  **Reflection:** When BFS vs DFS? Write the difference in 2 sentences.
 
 ### Saturday — Binary search (2h)
 
-- [ ]  LeetCode #704 — Binary Search *(the textbook case — make sure you nail the off-by-one)*
-- [ ]  LeetCode #34 — Find First and Last Position of Element in Sorted Array *(this is where binary search gets interesting)*
+- [x]  LeetCode #704 — Binary Search *(the textbook case — make sure you nail the off-by-one)*
+- [x]  LeetCode #34 — Find First and Last Position of Element in Sorted Array *(this is where binary search gets interesting)*
 
 ### Sunday — Big review (2h)
 
@@ -266,8 +266,8 @@ This "add the new, remove the old, compare" rhythm is the entire pattern — you
 
 ---
 [Recursion, DP and Back Tracking notes](Patterns/RecursionDPnBackTracking.md) \
-[BFS and DFS notes](Patterns/BFSDFS.md)
-
+[BFS and DFS notes](Patterns/BFSDFS.md) \
+[Binary Search Notes](Patterns/BinarySearch.md)
 ---
 
 # 🗓️ Week 4 — Consolidation, Mixed Sets & Timed Practice
